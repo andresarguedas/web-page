@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<script src="highchart_libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="highchart_libs/jquery/jquery.min.js"></script>
+<script src="highchart_libs/proj4js/proj4.js"></script>
+<link href="highchart_libs/highcharts/css/motion.css" rel="stylesheet" />
+<script src="highchart_libs/highcharts/highstock.js"></script>
+<script src="highchart_libs/highcharts/highcharts-3d.js"></script>
+<script src="highchart_libs/highcharts/highcharts-more.js"></script>
+<script src="highchart_libs/highcharts/modules/annotations.js"></script>
+<script src="highchart_libs/highcharts/modules/broken-axis.js"></script>
+<script src="highchart_libs/highcharts/modules/data.js"></script>
+<script src="highchart_libs/highcharts/modules/drilldown.js"></script>
+<script src="highchart_libs/highcharts/modules/exporting.js"></script>
+<script src="highchart_libs/highcharts/modules/funnel.js"></script>
+<script src="highchart_libs/highcharts/modules/heatmap.js"></script>
+<script src="highchart_libs/highcharts/modules/map.js"></script>
+<script src="highchart_libs/highcharts/modules/no-data-to-display.js"></script>
+<script src="highchart_libs/highcharts/modules/offline-exporting.js"></script>
+<script src="highchart_libs/highcharts/modules/solid-gauge.js"></script>
+<script src="highchart_libs/highcharts/modules/treemap.js"></script>
+<script src="highchart_libs/highcharts/plugins/annotations.js"></script>
+<script src="highchart_libs/highcharts/plugins/draggable-legend.js"></script>
+<script src="highchart_libs/highcharts/plugins/draggable-points.js"></script>
+<script src="highchart_libs/highcharts/plugins/export-csv.js"></script>
+<script src="highchart_libs/highcharts/plugins/grouped-categories.js"></script>
+<script src="highchart_libs/highcharts/plugins/motion.js"></script>
+<script src="highchart_libs/highcharts/plugins/pattern-fill-v2.js"></script>
+<script src="highchart_libs/highcharts/plugins/tooltip-delay.js"></script>
+<script src="highchart_libs/highcharts/custom/reset.js"></script>
+<script src="highchart_libs/highcharts/custom/symbols-extra.js"></script>
+<script src="highchart_libs/highcharts/custom/text-symbols.js"></script>
+<link href="highchart_libs/fontawesome/font-awesome.min.css" rel="stylesheet" />
+<link href="highchart_libs/htmlwdgtgrid/htmlwdgtgrid.css" rel="stylesheet" />
+<script src="highchart_libs/highchart-binding/highchart.js"></script>
+<script src="highchart_libs/pymjs/pym.v1.min.js"></script>
+  <title>highchart</title>
+</head>
+<body style="background-color:white;">
+<div id="htmlwidget_container">
+  <div id="htmlwidget-ff3a1d2cabced8235090" style="width:100%;height:500px;" class="highchart html-widget"></div>
+  <script>HTMLWidgets.pymChild = new pym.Child();HTMLWidgets.addPostRenderHandler(function(){
+                                setTimeout(function(){HTMLWidgets.pymChild.sendHeight();},100);
+                            });</script>
+</div>
+<script type="application/json" data-for="htmlwidget-ff3a1d2cabced8235090">{"x":{"hc_opts":{"title":{"text":"Gráfico de autocorrelaciones"},"yAxis":[{"height":"49.505%","top":"0%","offset":0,"opposite":false,"nid":1},{"height":"49.505%","top":"50.495%","offset":0,"opposite":true,"nid":2}],"credits":{"enabled":false},"exporting":{"enabled":false},"plotOptions":{"series":{"turboThreshold":0},"treemap":{"layoutAlgorithm":"squarified"},"bubble":{"minSize":5,"maxSize":25}},"annotationsOptions":{"enabledButtons":false},"tooltip":{"delayForDisplay":10},"xAxis":{"title":{"text":"Rezagos"}},"series":[{"data":[{"x":1,"y":1},{"x":2,"y":0.302855258152169},{"x":3,"y":-0.102147548073476},{"x":4,"y":-0.241273486750169},{"x":5,"y":-0.300401576218073},{"x":6,"y":-0.0940727124580786},{"x":7,"y":-0.0784425671100673},{"x":8,"y":-0.092362200994749},{"x":9,"y":-0.294801580491315},{"x":10,"y":-0.191778209651518},{"x":11,"y":-0.104917066561146},{"x":12,"y":0.282931054560381},{"x":13,"y":0.829177859757305},{"x":14,"y":0.2845007877485},{"x":15,"y":-0.105751722916247},{"x":16,"y":-0.222130926594277},{"x":17,"y":-0.231076034560714},{"x":18,"y":-0.0622790393368918},{"x":19,"y":-0.0661850457807974},{"x":20,"y":-0.0903997339867886},{"x":21,"y":-0.297109575132362},{"x":22,"y":-0.162731982119982}],"type":"column","pointWidth":2,"name":"ACF","yAxis":0},{"data":[{"x":1,"y":0.302855258152169},{"x":2,"y":-0.213446442200341},{"x":3,"y":-0.160446803199264},{"x":4,"y":-0.221630026570573},{"x":5,"y":0.0100837943166453},{"x":6,"y":-0.190643086815638},{"x":7,"y":-0.153656621372781},{"x":8,"y":-0.454732244788574},{"x":9,"y":-0.233751280222405},{"x":10,"y":-0.547297135694448},{"x":11,"y":-0.130043441228315},{"x":12,"y":0.571286839021407},{"x":13,"y":-0.149280691515666},{"x":14,"y":-0.171814967866277},{"x":15,"y":0.0672073393132223},{"x":16,"y":0.0624636360007115},{"x":17,"y":0.00763771038570369},{"x":18,"y":-0.0799447255254968},{"x":19,"y":0.0371433973537723},{"x":20,"y":-0.0946768472628717},{"x":21,"y":-0.0046834823572272},{"x":22,"y":null}],"type":"column","pointWidth":2,"name":"PACF","yAxis":1}]},"theme":{"chart":{"backgroundColor":"transparent"}},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","drillUpText":"Back to {series.name}","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"thousandsSep":" ","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
+<script type="application/htmlwidget-sizing" data-for="htmlwidget-ff3a1d2cabced8235090">{"viewer":{"width":"100%","height":350,"padding":0,"fill":false},"browser":{"width":"100%","height":500,"padding":0,"fill":false}}</script>
+</body>
+</html>
