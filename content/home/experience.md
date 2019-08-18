@@ -20,7 +20,7 @@ date_format = "January 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "Teaching Assistant"
-  company = "University of Costa Rica"
+  company = "School of Statistics, University of Costa Rica"
   company_url = ""
   location = "San Jose, Costa Rica"
   date_start = "2016-08-01"
@@ -38,14 +38,14 @@ date_format = "January 2006"
   company = "Central American Population Center"
   location = "San Jose, Costa Rica"
   date_start = "2018-03-01"
-  date_end = ""
+  date_end = "2018-12-01"
   description = """
   Research assistant in a project for analyzing, through different reproductive health surveys and survival models, the evolution of sterilization in Costarican women
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University of Costa Rica"
+  title = "Lecturer"
+  company = "School of Statistics, University of Costa Rica"
   company_url = ""
   location = "San Jose, Costa Rica"
   date_start = "2018-08-01"
