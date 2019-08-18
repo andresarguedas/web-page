@@ -13,7 +13,7 @@ title = "Andres Arguedas"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+copyright = "&copy; 2019"
 # copyright = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img class="display-centered" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">This work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="/" property="cc:attributionName" rel="cc:attributionURL">Peter Baumgartner</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="http://peter.baumgartner.name/kontakt" rel="cc:morePermissions">http://peter.baumgartner.name/kontakt</a>.'
 
 theme = "hugo-academic"
@@ -53,7 +53,7 @@ enableGitInfo = false
 
   # Your details.
   name = "Andrés Arguedas"
-  role = "Professor of Statistics"
+  role = "Lecturer, School of Statistics"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -248,7 +248,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fas"
-    link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+    link = "mailto:andres.arguedasleiva@ucr.ac.cr"  # For a direct email link, use "mailto:test@example.org".
 
   [[params.social]]
     icon = "twitter"
@@ -272,10 +272,10 @@ enableGitInfo = false
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  [[params.social]]
-    icon = "cv"
-    icon_pack = "ai"
-    link = "files/CV_Andres_Arguedas.pdf"
+  #[[params.social]]
+  #  icon = "cv"
+  #  icon_pack = "ai"
+  #  link = "files/CV_Andres_Arguedas.pdf"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -310,17 +310,17 @@ enableGitInfo = false
 #   url = "/tutorial/"
 #   weight = 5
 
-[[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 6
+#[[menu.main]]
+#  name = "Contact"
+#  url = "#contact"
+#  weight = 6
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-[[menu.main]]
-  name = "CV"
-  url = "files/CV-espanol.pdf"
-  weight = 7
+#[[menu.main]]
+#  name = "CV"
+#  url = "files/CV-espanol.pdf"
+#  weight = 7
 
 # Search.
 [params.search]
